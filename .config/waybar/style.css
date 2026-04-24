@@ -9,21 +9,21 @@
 }
 
 window#waybar {
-    background-color: alpha(@base, 0.9);
-    color: @text;
-    border-bottom: 2px solid alpha(@mauve, 0.5);
+    background-color: rgba(24, 21, 16, 0.92);
+    color: #d4c5cb0;
+    border-bottom: 2px solid rgba(232, 98, 58, 0.5);
 }
 
 /* Left modules */
 #workspaces button {
     padding: 0 8px;
-    color: @overlay0;
+    color: #6b5a52;
     background: transparent;
     border-bottom: 2px solid transparent;
 }
 
 #workspaces button.active {
-    color: @mauve;
+    color: #e8623a;
     border-bottom: 2px solid @mauve;
 }
 
@@ -39,7 +39,7 @@ window#waybar {
 
 /* Center */
 #clock {
-    color: @blue;
+    color: #5a8a9f;
     font-weight: bold;
     padding: 0 12px;
 }
@@ -55,17 +55,17 @@ window#waybar {
 }
 
 #battery.warning {
-    color: @yellow;
+    color: #c47a2a;
 }
 
 #battery.critical {
-    color: @red;
+    color: #c4432a;
 }
 
 #battery.charging {
-    color: @green;
+    color: #4a7a6f;
 }
 
 #network.disconnected {
-    color: @red;
+    color: #c4432a;
 }

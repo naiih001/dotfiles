@@ -4,21 +4,25 @@
 }
 
 window {
-    background-color: #1e1e2e;
-    border: 2px solid #cba6f7;
+    background-color: #181510;
+    border: 2px solid #e8623a;
     border-radius: 12px;
 }
 
 #input {
-    background-color: #313244;
-    color: #cdd6f4;
-    border: none;
-    border-radius: 8px;
-    padding: 8px 12px;
-    margin: 8px;
-    outline: none;
-    caret-color: #cba6f7;
+    background-color: #2a231a;
+    color: #d4c5b0;
+    border: 1px solid #3a302a;
+    caret-color: #e8623a;
 }
+
+#entry:selected {
+    background-color: #2a231a;
+    color: #e8623a;
+}
+
+#text { color: #d4c5b0; }
+#text:selected { color: #e8623a; }
 
 #input:focus {
     border: 1px solid #cba6f7;
@@ -35,11 +39,6 @@ window {
 
 #scroll {
     margin: 4px;
-}
-
-#text {
-    color: #cdd6f4;
-    padding: 4px 8px;
 }
 
 #entry {
